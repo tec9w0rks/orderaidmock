@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="ja" prefix="">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/orderaid.css" />
+<title>商品詳細 - Order Aid</title>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="container">
+            <div class="content">
+                <div class="content-item">
+                    <img src="img/15.jpg" class="image">
+                </div>    
+                <div class="content-item">
+                    <div class="text">
+                        <h2 class="heading">北アルプス保存水500ml（２本）</h2>
+                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-gradient-radius">CART</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<style>
+/* container */
+.wrapper{
+    width:100%;
+    background-color:#fafafa;
+}
+.wrapper .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
+}
+/* content */
+@media (min-width: 992px) {
+    .wrapper .container .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.wrapper .content-item {
+    width:100%;
+}
+@media (min-width: 992px) {
+    .wrapper .content-item {
+        width:50%;
+    }
+}
+.wrapper .image{
+    display:block;
+    max-width:100%;
+    margin:0px auto;
+}
+.wrapper .text{
+    padding:50px;
+}
+.wrapper .text .heading{
+    margin:0px 0px 40px 0px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+.btn-gradient-radius {
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+  transition: .4s;
+}
+
+.btn-gradient-radius:hover {
+  background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+}
+</style>
