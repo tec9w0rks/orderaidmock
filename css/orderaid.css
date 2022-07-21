@@ -1,5 +1,19 @@
+.titlelogo {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
 
-
+.category_title {
+  	width: 200px;
+	display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+	padding: 1rem 1rem;
+	text-align: center;
+	background: #BDBDBD;
+}
 
 
 
