@@ -2,23 +2,35 @@
 <html lang="ja" prefix="">
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="./css/orderaid.css" />
+<link rel="stylesheet" type="text/css" href="css/orderaid.css" />
 <title>商品詳細 - Order Aid</title>
+<script>
+function popups() {
+    confirm("CARTボタンの押下によって購入手続きへ遷移し、購入が完了すると商品が防災バッグに追加されます。");
+}
+</script>
 </head>
 <body>
+<center>
+    <a href="index.html"><img class="titlelogo" src="img/v_3.jpg" width="40%" height="40%" alt=""/></a>
+</center>
+<center>
+    <a href="category.html"><div class="category_title">商 品 一 覧</div></a>
+    <a href="yourselect.html"><div class="category_title">YOUR SELECTとは</div></a>
+</center>
     <section class="wrapper">
         <div class="container">
             <div class="content">
                 <div class="content-item">
-                    <img src="img/15.jpg" class="image">
+                    <img src="img/O-6.jpg" class="image">
                 </div>    
                 <div class="content-item">
                     <div class="text">
-                        <h2 class="heading">北アルプス保存水500ml（２本）</h2>
-                        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <h2 class="heading">イザメシ ごろごろ肉じゃが <br>￥486</h2>
+                        <p></p>
                     </div>
                 </div>
-                <a href="#" class="btn-gradient-radius">CART</a>
+                <div><a href="javascript:popups();" class="btn-gradient-radius">CART</a></div>
             </div>
         </div>
     </section>
